@@ -32,12 +32,8 @@ def home():
 import os
 
 if __name__ == "__main__":
-<<<<<<< HEAD
-    app.run(host="0.0.0.0", port=5000
-           )
-=======
     app.run(
         host="0.0.0.0",
         port=int(os.environ.get("PORT", 5000))
     )
->>>>>>> 3f03f9f (Ready for deployment)
+
