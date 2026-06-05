@@ -1,0 +1,70 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# TensorFlow checkpoints
+checkpoints/
+*.ckpt
+*.index
+*.data-00000-of-00001
+
+# Model training artifacts
+logs/
+tensorboard_logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# SQLite databases
+*.db
+*.sqlite3
+
+# History data (optional)
+database/history.json
+
+# Large datasets
+data/
+datasets/
+
+# Google Colab files
+/content/
+
+# Uploaded files
+uploads/
+
+# OS files
+Thumbs.db
